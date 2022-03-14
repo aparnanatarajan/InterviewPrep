@@ -15,7 +15,6 @@ public class InsertBST
         {
             root.left = insertIntoBST(root.left, num);
         }
-        else
-            return root;
+        return root;
     }
 }
